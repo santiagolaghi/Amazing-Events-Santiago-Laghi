@@ -44,40 +44,12 @@ header{
     width: 5rem; 
 }
 
-/*Stats*/
-table{
-    width: 90vw;
-    min-height: 40vh;
-    align-self: center;
-}
-td{
-    min-height: 1em;
-}
-table, td, tr, th{
-    outline: .5px solid rgb(180, 98, 98);
-    background-color: #f09696;
-    font-size: 1.1rem;
-}
-td, tr, th{
-    padding-right: 1em;
-    padding-left: 1em;
-    width: 33%;
-    color: white;
-}
-th{
-    height: 3em;
-    background-color: #8a211a;
-    color: white;
-}
-.texttd{
-    height: 3em;
-    font-size: 0.8em;
-}
-
 /*Details*/
 
 .detailsdiv{
+    text-align: left;
     justify-self: center;
+    justify-content: space-between;
     width: 90vw;
     font-size: 1em;
     color: white;
@@ -86,6 +58,8 @@ th{
 }
 .detailsdiv img{
     object-fit: cover;
+    width: 50rem;
+    height: 50rem;
 }
 .imagecard{
     height: 12rem;
@@ -168,3 +142,4 @@ th{
 #inputBusqueda{
     height: 3rem;
 }
+
