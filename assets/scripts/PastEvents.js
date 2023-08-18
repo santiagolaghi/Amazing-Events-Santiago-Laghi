@@ -1,4 +1,4 @@
-import { crearTarjeta, MostrarChecks, aplicarFiltroCruzado, filtrarEventosPorCategoria, filtrarEventosPorNombre } from '../modules/functions.js';
+import { crearTarjeta, MostrarChecks, aplicarFiltroCruzado } from '../modules/functions.js';
 
 const contenedorTarjetas = document.getElementById('contenedorTarjetas');
 const contenedorChecks = document.getElementById("contenedorChecks");

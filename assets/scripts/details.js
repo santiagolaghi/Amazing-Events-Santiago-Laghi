@@ -21,8 +21,8 @@ fetch('https://mindhub-xj03.onrender.com/api/amazing')
               <p class="fs-5 card-text">Date: ${event.date}</p>
               <p class="fs-5 card-text">Place: ${event.place}</p>
               <p class="fs-5 card-text">Capacity: ${event.capacity}</p>
-              <p class="fs-5 card-text">Assistance: ${(event.estimate) ? "Estimate: " + event.estimate : "Assistance: " + event.assistance}</p>
-              <p class="fs-5 card-text">Price: ${event.price}</p>
+              <p class="fs-5 card-text">${(event.estimate) ? "Estimate: " + event.estimate : "Assistance: " + event.assistance}</p>
+              <p class="fs-5 card-text">Price: $ ${event.price}</p>
             </div>
           </div>
         </div>
